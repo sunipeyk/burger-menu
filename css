@@ -1,0 +1,11 @@
+.navholder{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;
+padding:.5em 5%;margin:0 auto}
+.burger-shower{display:none}
+.burger-shower:checked ~ .ana{display:flex}
+.burger-shower:checked ~ .hamburger:before{background-color:#32373c;transform:translateY(8px) rotate(45deg)}
+.burger-shower:checked ~ .hamburger:after{background-color:#32373c;transform:translateY(-8px) rotate(-45deg)}
+.burger-shower:checked ~ .hamburger span{transform:scale(0)}
+.hamburger{width:25px;margin:1.6em 0;cursor:pointer}
+.hamburger:after,.hamburger:before,.hamburger span{background-color:#32373c;border-radius:3px;content:'';display:block;height:4px;margin:4px 0;transition: all .2s ease-in-out}
+.navholder{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;
+padding:.5em 5%;margin:0 auto}
